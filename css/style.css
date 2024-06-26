@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Ubuntu Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+}
+
+.imagenLogo{
+    width: 200px;
+}
+
+.navLogo{
+    img{
+        width: 100%;
+        max-width: 150px;
+    }
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.botonNav{
+    display: block;
+    margin-left: auto;
+}
+
+nav{
+    padding-top: 20px;
+}
+
+header{
+    position: relative;
+    background-color: #DBE2EF ;
+    display: flex;
+}
+
+section{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+article {
+    display: flex;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nuevos {
+    margin-top: 20px ;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.cardAdidas {
+    background-color: #DBE2EF ;
+    max-width: 325px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 30px;
+    border: 3px black solid;
+    border-radius: 20px;
+}
+.cardJordan {
+    background-color: #DBE2EF ;
+    max-width: 325px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 30px;
+    border: 3px black solid;
+    border-radius: 20px;
+}
+
+.cardNike {
+    background-color: #DBE2EF ;
+    max-width: 325px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin: 15px 20px;
+    text-align: center;
+    padding: 30px;
+    border: 3px black solid;
+    border-radius: 20px;
+}
+
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardMarcas {
+    background-color: #DBE2EF ;
+    max-width: 250px;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin: 15px 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 40px;
+    border: 3px black solid;
+    border-radius: 20px;
+    transition: 300ms ease;
+}
+
+button {
+    all:unset;
+    margin-left: 10px;
+    border: 2px black solid;
+    padding: 5px;
+    border-radius: 10px ;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.pie-pagina{
+    width: 100%;
+    background-color: #DBE2EF;
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: black;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: black;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: black;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: rgb(153, 153, 153);
+}
+.pie-pagina .footerBajo{
+    background-color: black;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .footerBajo{
+    font-size: 15px;
+}
+
+.footerRedes{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+}
+
+.section1 {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.marcas {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.adidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.jordan {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.nike {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.titulosProd {
+    margin-top: 15px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.cardMarcas:hover {
+    transform: scale(1.075);
+    
+}
+
+.navbar{
+    background-color: #DBE2EF;
+}
+
+section .carouselIndex{
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+
+
+
+@media (max-width: 768px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px ;
+        padding-bottom: 10px ;
+    }
+
+    button {
+        margin-bottom: 10px;
+    }
+
+    .adidas{
+        justify-content: center;
+    }
+
+    .jordan {
+        justify-content: center;
+    }
+
+    .nike {
+        justify-content: center;
+    }
+
+    h2{
+        text-align: center;
+    }
+
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+
+    .box{
+        text-align: center;
+    }
+
+    .h2Footer{
+        text-align: center;
+    }
+}
